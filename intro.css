@@ -2494,13 +2494,13 @@ h2 {
 @media screen and (max-width: 390px) {
     .box-lion_dance .lion_dance1 {
         top: 550px;
-        z-index: 100000;
+        /* z-index: 100000; */
         right: 0;
     }
 
     .box-lion_dance .lion_dance2 {
         top: 565px;
-        z-index: 100000;
+        /* z-index: 100000; */
         left: 0;
     }
 
