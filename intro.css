@@ -2554,3 +2554,9 @@ h2 {
         left: 230px;
     } */
 }
+
+@media (max-width: 600px) {
+    .fa-eye::before {
+        margin-right: 0px;
+    }
+}
