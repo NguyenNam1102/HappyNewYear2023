@@ -78,6 +78,20 @@ body {
     animation: textHappyTransform 1s 3s forwards;
 }
 
+.view {
+    font-size: 20px;
+}
+
+.fa-eye:before {
+    margin-right: 10px;
+    font-size: 24px;
+    color: blue;
+}
+
+.fa-eye:hover:before {
+    color: red;
+}
+
 @keyframes textHappyTransform {
     0% {
         transform: translateY(-130px);
