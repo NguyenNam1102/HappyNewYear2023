@@ -2426,7 +2426,7 @@ h2 {
     }
 
     .text-content h1 {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .text-content span {
@@ -2473,11 +2473,12 @@ h2 {
     }
 
     .slider3 .right .content h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .box-content .right .content p {
         font-size: 15px;
+        padding: 20px 15px 0px 15px;
     }
 
     .box-content .right .content .fixedContent {
@@ -2488,24 +2489,27 @@ h2 {
     .box-content .right .content .fixedContent h3 {
         font-size: 15px;
     }
-}
 
+    .box-button {
+        top: 70%;
+    }
+}
 
 @media screen and (max-width: 390px) {
     .box-lion_dance .lion_dance1 {
-        top: 550px;
+        top: 450px;
         /* z-index: 100000; */
         right: 0;
     }
 
     .box-lion_dance .lion_dance2 {
-        top: 565px;
+        top: 460px;
         /* z-index: 100000; */
         left: 0;
     }
 
     .box-button {
-        top: 90%;
+        top: 70%;
     }
 
     .number2023 {
@@ -2528,6 +2532,11 @@ h2 {
     .number2023 .number:nth-child(4) {
         top: -600px;
     }
+
+    .box-content .right .content p {
+        padding: 15px 15px 0px 15px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -2553,6 +2562,9 @@ h2 {
     .box-lion_dance .lion_dance2 {
         left: 230px;
     } */
+    .slider3 .right .content h1 {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 600px) {
