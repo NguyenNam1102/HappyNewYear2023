@@ -2559,4 +2559,9 @@ h2 {
     .fa-eye::before {
         margin-right: 0px;
     }
+
+    .slider3 i {
+        top: 10px;
+        right: 12px;
+    }
 }
