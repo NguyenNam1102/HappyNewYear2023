@@ -2275,6 +2275,11 @@ const soundManager = {
 };
 
 
+// ------audio------------
+var mySong2 = document.getElementById("song2")
+if (mySong2.paused) {
+	mySong2.play()
+}
 
 
 // Kick things off.
